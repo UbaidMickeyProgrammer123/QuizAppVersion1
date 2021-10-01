@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".CRUD_Q.CRUD_ADD_Update_Delete_Question">
+
+    <!--EditText for adding employee name-->
+
+
+    <TextView
+        android:id="@+id/textView5_subject_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:padding="26dp"
+        android:text="TextView"
+        android:textColor="@color/bg_purple"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4_subheading_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Please enter correct data"
+        android:textColor="@color/bg_purple"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/id_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Question id eg:1,2,3,4"
+        android:inputType="number"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_enter_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter question"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter option 1"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter option 2"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter option 3"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_option4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter option 4"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/id_correctAns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Correct Answer Option no"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/sendDatabutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="Add" />
+</LinearLayout>

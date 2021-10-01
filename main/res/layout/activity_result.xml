@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Final Result"
+        android:textColor="#EBDBDB"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/result_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="16dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/trophy3" />
+
+    <ImageView
+        android:id="@+id/position_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/ground" />
+
+    <TextView
+        android:id="@+id/textView3_congragulation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Hey Congragulation!!"
+        android:textColor="#FFEB3B"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arbutus"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="UserName"
+        android:textColor="#EED7D7" />
+
+    <TextView
+        android:id="@+id/textView5_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="your scrore is 9 out of 10"
+        android:textColor="#C6AAAA" />
+
+    <TextView
+        android:id="@+id/no_limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="There is no limit try again and got top Rank!!"
+        android:textColor="#B0BCA3"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start_next_quiz_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:text="Play Next Quiz!!  --->"
+            android:textColor="#EBD5D5"
+            app:backgroundTint="@color/bg_purple" />
+    </LinearLayout>
+
+</LinearLayout>

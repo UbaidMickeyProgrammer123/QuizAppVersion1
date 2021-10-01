@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+
+    android:layout_height="match_parent"
+    tools:context=".enterUserNameActivity">
+
+    <TextView
+        android:id="@+id/textView_App_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="QuizApp"
+        android:textColor="#b14c5c"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="#FFFFFF"
+        android:padding="20dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textColor="#1f323a"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="please enter your correct name here"
+                android:textColor="#7B6C6C"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/input_layout_id"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textColorHint="@color/bg_purple"
+                app:boxBackgroundColor="@color/bg_purple"
+                app:boxStrokeColor="@color/bg_purple"
+                app:boxStrokeErrorColor="@color/bg_purple"
+                app:counterOverflowTextColor="@color/bg_purple"
+                app:counterTextColor="@color/bg_purple"
+                app:errorTextColor="@color/bg_purple"
+                app:helperTextTextColor="@color/bg_purple"
+                app:hintTextColor="@color/bg_purple"
+                app:placeholderTextColor="@color/bg_purple"
+                app:prefixTextColor="@color/bg_purple"
+                app:suffixTextColor="@color/bg_purple">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/id_name"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/arbutus"
+                    android:hint="Name "
+                    android:padding="26dp"
+                    android:shadowColor="@color/bg_purple"
+                    android:textColor="#2C3939"
+                    android:textColorHighlight="@color/bg_purple"
+                    android:textColorHint="@color/bg_purple"
+                    android:textColorLink="@color/bg_purple"
+                    tools:ignore="TouchTargetSizeCheck" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/buttonStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:background="@color/bg_purple"
+                android:text="Start Quiz"
+                android:textColor="#FBF9F9"
+                app:backgroundTint="@color/bg_purple"
+                />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

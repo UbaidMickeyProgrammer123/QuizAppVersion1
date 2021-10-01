@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:layout_marginTop="-59dp"
+    android:background="@drawable/full_round_corner_bg_text_color"
+    android:hapticFeedbackEnabled="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".UserPageLayoutActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView_subjectRestart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/abril_fatface"
+                android:padding="16dp"
+                android:textColor="#DDC4C4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alfa_slab_one"
+                android:padding="16dp"
+                android:textColor="@color/bg_purple"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            >
+
+            <TextView
+                android:id="@+id/textView_App_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/archivo_black"
+                android:padding="16dp"
+                android:text="QuizApp"
+                android:textColor="#b14c5c"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/Islamic_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="Islamic"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple" />
+
+            <Button
+                android:id="@+id/pakStudy_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="33dp"
+
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="Pak Study"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/Math_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="Java"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/physics_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="33dp"
+
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="HTML"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <Button
+                android:id="@+id/GK_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="GK"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple"
+                tools:ignore="DuplicateIds" />
+
+            <Button
+                android:id="@+id/chemistry_btn"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="33dp"
+
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text="Science"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+
+            <Button
+                android:id="@+id/position_btn"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="33dp"
+
+                android:background="@drawable/square_btn_corner_bg_text_color"
+                android:fontFamily="@font/alfa_slab_one"
+                android:gravity="center"
+                android:text=" Player's Rank!!"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/bg_purple" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
